@@ -19,7 +19,7 @@ It's a little project I want to keep because it reminds me of **why I started le
 
 The terminal literally calls itself:
 
-BINARY FRIENDSHIP TERMINAL (>_<)
+```BINARY FRIENDSHIP TERMINAL (>_<)```
 
 because, well...
 
