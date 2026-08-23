@@ -36,7 +36,7 @@ I was only about **11 days into learning Python** when I decided to make this.
 
 I was still going through CS50P and had been learning the basics by making tiny programs. I suddenly thought:
 
-> "planned to made binary.py a binary encrypter and decrypter including a login window... rather a sentence lol specified to a username and password"
+> "planned to make binary.py a binary encrypter and decrypter including a login window... rather a sentence lol specified to a username and password"
 
 And because the next day was Friendship Day, I decided to actually make the thing.
 
