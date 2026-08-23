@@ -114,7 +114,7 @@ to convert the binary number back into an integer, and then:
 to turn that integer back into a character.
 
 So the basic journey is:
-
+```text
 TEXT
 
  | 
@@ -148,7 +148,7 @@ chr()
  |
  
 TEXT
-
+```
 
 ## The login window
 
