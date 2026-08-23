@@ -1,6 +1,6 @@
 # binary_friendship_terminal
 
-##Binary Friendship Terminal (>_<)
+## Binary Friendship Terminal (>_<)
 
 A tiny binary encoder + decoder terminal I made in Python.
 
@@ -9,7 +9,7 @@ This isn't supposed to be some serious cryptography project or a perfect impleme
 It's a little project I want to keep because it reminds me of ""why I started learning Python in the first place: curiosity.""
 
 
-##What is this?
+## What is this?
 
 `binary.py` is a terminal program with:
 - a small login window
@@ -26,12 +26,13 @@ BINARY FRIENDSHIP TERMINAL (>_<)
 because, well...
 
 ""Friendship Day.""
+
 :3
 
 
-##Why did I make this?
+## Why did I make this?
 
-###1 August 2026 : Day 11 of learning Python
+### 1 August 2026 : Day 11 of learning Python
 
 I was only about ""11 days into learning Python"" when I decided to make this.
 
@@ -48,17 +49,17 @@ I just knew I wanted the computer to do something interesting.
 So I started figuring it out.
 
 
-##The part where I broke my brain a little
+## The part where I broke my brain a little
 
 One of the things I needed was a way to turn characters into numbers and then into binary.
 
 That's when I learned about:
 
-ord()
+`ord()`
 
 and
 
-chr()
+`chr()`
 
 `ord()` let me convert a character into its numeric character code, while chr() let me turn the number back into a character.
 
@@ -79,10 +80,11 @@ I didn't want to manually figure out the binary.
 I wanted to make the computer figure it out.
 
 
-##How the encoder works
+## How the encoder works
 
 For every character entered by the user, the program:
-1. gets its character code using ord()
+
+1. gets its character code using `ord()`
 2. repeatedly divides the number by 2
 3. records the remainders
 4. reverses the resulting bits
@@ -98,7 +100,7 @@ For example, the output is arranged roughly like:
 The program prints five binary blocks per line, which was one of the little things I wanted the terminal to do.
 
 
-##How the decoder works
+## How the decoder works
 
 The decoder takes binary blocks separated by spaces.
 
@@ -133,7 +135,7 @@ chr()
 TEXT
 
 
-##The login window
+## The login window
 
 Yes.
 
@@ -156,7 +158,7 @@ Happy Friendship Day <3
 because that was the whole reason I was making this thing in the first place.
 
 
-##The code is messy.
+## The code is messy.
 
 Very messy.
 
@@ -177,19 +179,19 @@ But that's okay.
 I don't want to erase that by pretending I knew everything from the beginning (cuz i never did).
 
 
-##A tiny milestone for me
+## A tiny milestone for me
 
-On the evening of ""1 August 2026"", after messing around with the encoder, ASCII, >ord(), >chr(), and the rest of the program, I finally wrote:
+On the evening of ""1 August 2026"", after messing around with the encoder, ASCII, `ord()`, `chr()`, and the rest of the program, I finally wrote:
 
->"okay...encoder is done !! m soo happyyy ahhhh"
+> "okay...encoder is done !! m soo happyyy ahhhh"
 
 Later that night:
 
->"sooo yess m done at the end of day and I managed to send it to him <3<3"
+> "sooo yess m done at the end of day and I managed to send it to him <3<3"
 
 And then:
 
->"and yess I feel good...I feel like I learned things"
+> "and yess I feel good...I feel like I learned things"
 
 That's probably the most important part of this repository.
 
@@ -202,22 +204,22 @@ Not even the code.
 It's the fact that ""I had an idea, followed my curiosity, struggled through it, and made the computer do the thing I imagined.""
 
 
-##What I learned while making this
+## What I learned while making this
 
 This project was where I got to practice:
 
-- ord()
-- chr()
+- `ord()`
+- `chr()`
 - strings
 - loops
-- while
-- for
+- `while`
+- `for`
 - lists
 -indexing
 - functions
-- main()
-- sys.exit()
-- match...case
+- `main()`
+- `sys.exit()`
+- `match...case`
 - user input
 - binary representation
 - ASCII
@@ -227,36 +229,36 @@ This project was where I got to practice:
 
 And probably the most important lesson:
 
->There are many ways to solve a single problem.
+> There are many ways to solve a single problem.
 
 I was still very early in Python when I made this, so this isn't necessarily the best way to implement a binary encoder/decoder.
 
 It's just ""my way at that point in time.""
 
 
-##Running it
+## Running it
 
 Make sure Python is installed, then run:
 
-python binary.py
+`python binary.py`
 
 You'll get the terminal:
 
-BINARY FRIENDSHIP TERMINAL (>_<)
+`BINARY FRIENDSHIP TERMINAL (>_<)`
 
-Built with Python.
+`Built with Python.
 One evening.
 One Laptop.
-And way too many goofy ideas meoww:3
+And way too many goofy ideas meoww:3`
 
 Then log in and choose:
 
-1. Encode
+`1. Encode
 2. Decode
-3. Exit
+3. Exit`
 
 
-##A little time capsule
+## A little time capsule
 
 I want to keep this repository for a very simple reason.
 
@@ -284,15 +286,15 @@ The one who got curious.
 
 The one who went:
 
->"I have to make computer work not me~"
+> "I have to make computer work not me~"
 
 and then actually did.
 
 
-##Made by Adyasha
+## Made by Adyasha
 
-###1 August 2026
+### 1 August 2026
 
 Python || CS50P || curiosity || friendship || way too many goofy ideas :3
 
-> Oink Oink :)
+`Oink Oink :)`
