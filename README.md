@@ -105,11 +105,11 @@ The decoder takes binary blocks separated by spaces.
 
 For every block, it does:
 
-int(block, 2)
+`int(block, 2)`
 
 to convert the binary number back into an integer, and then:
 
-chr(...)
+`chr(...)`
 
 to turn that integer back into a character.
 
@@ -230,7 +230,7 @@ This project was where I got to practice:
 - `while`
 - `for`
 - lists
--indexing
+- indexing
 - functions
 - `main()`
 - `sys.exit()`
@@ -258,20 +258,20 @@ Make sure Python is installed, then run:
 `python binary.py`
 
 You'll get the terminal:
+```
+BINARY FRIENDSHIP TERMINAL (>_<)
 
-`BINARY FRIENDSHIP TERMINAL (>_<)`
-
-`Built with Python.
+Built with Python.
 One evening.
 One Laptop.
-And way too many goofy ideas meoww:3`
-
+And way too many goofy ideas meoww:3
+```
 Then log in and choose:
-
-`1. Encode
+```
+1. Encode
 2. Decode
-3. Exit`
-
+3. Exit
+```
 
 ## A little time capsule
 
