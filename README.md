@@ -1,0 +1,1 @@
+# binary_friendship_terminal
