@@ -1,12 +1,10 @@
-# binary_friendship_terminal
-
-## Binary Friendship Terminal (>_<)
+# Binary Friendship Terminal (>_<)
 
 A tiny binary encoder + decoder terminal I made in Python.
 
 This isn't supposed to be some serious cryptography project or a perfect implementation.
 
-It's a little project I want to keep because it reminds me of ""why I started learning Python in the first place: curiosity.""
+It's a little project I want to keep because it reminds me of **why I started learning Python in the first place: curiosity.**
 
 
 ## What is this?
@@ -25,7 +23,7 @@ BINARY FRIENDSHIP TERMINAL (>_<)
 
 because, well...
 
-""Friendship Day.""
+**Friendship Day.**
 
 :3
 
@@ -34,7 +32,7 @@ because, well...
 
 ### 1 August 2026 : Day 11 of learning Python
 
-I was only about ""11 days into learning Python"" when I decided to make this.
+I was only about **11 days into learning Python** when I decided to make this.
 
 I was still going through CS50P and had been learning the basics by making tiny programs. I suddenly thought:
 
@@ -95,6 +93,7 @@ The encoder also puts a leading 0 before the seven calculated bits, giving each 
 For example, the output is arranged roughly like:
 
 0xxxxxxx 0xxxxxxx 0xxxxxxx 0xxxxxxx 0xxxxxxx
+
 0xxxxxxx 0xxxxxxx 0xxxxxxx . . . 
 
 The program prints five binary blocks per line, which was one of the little things I wanted the terminal to do.
@@ -117,21 +116,37 @@ to turn that integer back into a character.
 So the basic journey is:
 
 TEXT
+
+ | 
+ 
+ord() 
+
  |
-ord()
- |
+
 NUMBER
+
  |
+ 
 BINARY
+
  |
+ 
 BINARY BLOCKS
+
  |
+ 
 int(block, 2)
+
  |
+ 
 NUMBER
+
  |
+ 
 chr()
+
  |
+ 
 TEXT
 
 
@@ -174,14 +189,14 @@ Looking at the code now, I can already see things I would probably design differ
 
 But that's okay.
 
-""This is a snapshot of me learning.""
+**This is a snapshot of me learning.**
 
 I don't want to erase that by pretending I knew everything from the beginning (cuz i never did).
 
 
 ## A tiny milestone for me
 
-On the evening of ""1 August 2026"", after messing around with the encoder, ASCII, `ord()`, `chr()`, and the rest of the program, I finally wrote:
+On the evening of **1 August 2026**, after messing around with the encoder, ASCII, `ord()`, `chr()`, and the rest of the program, I finally wrote:
 
 > "okay...encoder is done !! m soo happyyy ahhhh"
 
@@ -201,7 +216,7 @@ Not the decoder.
 
 Not even the code.
 
-It's the fact that ""I had an idea, followed my curiosity, struggled through it, and made the computer do the thing I imagined.""
+It's the fact that **I had an idea, followed my curiosity, struggled through it, and made the computer do the thing I imagined.**
 
 
 ## What I learned while making this
@@ -233,7 +248,7 @@ And probably the most important lesson:
 
 I was still very early in Python when I made this, so this isn't necessarily the best way to implement a binary encoder/decoder.
 
-It's just ""my way at that point in time.""
+It's just **my way at that point in time.**
 
 
 ## Running it
@@ -276,7 +291,7 @@ But it worked.
 
 And that's kinda beautiful.
 
-""11 days into Python, I made this.""
+**11 days into Python, I made this.**
 
 I want future me to be able to come back here and remember that version of me.
 
