@@ -202,7 +202,7 @@ On the evening of **1 August 2026**, after messing around with the encoder, ASCI
 
 Later that night:
 
-> "sooo yess m done at the end of day and I managed to send it to him <3<3"
+> "sooo yess m done at the end of day and I managed to send it <3<3"
 
 And then:
 
@@ -273,6 +273,7 @@ Then log in and choose:
 3. Exit
 ```
 
+
 ## A little time capsule
 
 I want to keep this repository for a very simple reason.
@@ -290,6 +291,7 @@ I definitely didn't write perfect code.
 But it worked.
 
 And that's kinda beautiful.
+
 
 **11 days into Python, I made this.**
 
