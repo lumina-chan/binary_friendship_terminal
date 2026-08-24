@@ -59,7 +59,7 @@ and
 
 `chr()`
 
-`ord()` let me convert a character into its numeric character code, while chr() let me turn the number back into a character.
+`ord()` let me convert a character into its numeric character code, while `chr()` let me turn the number back into a character.
 
 I then started wondering:
 
